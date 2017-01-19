@@ -11,9 +11,14 @@
 | Sabertooth dual 12A motor driver | 2 | https://www.dimensionengineering.com/products/sabertooth2x12 |
 | Raspberry Pi 2 Kit (link updated to pi 3) | 1 | https://www.amazon.com/Vilros-Raspberry-Complete-Starter-Black/dp/B00MV6TAJI |
 | Teensy 3.6 | 1 | https://www.sparkfun.com/products/14057 | 
-| Logitech c920 webcam | 1 | http://a.co/a6Er59p |
 | Scanse Sweep (Lidar) | 1 | https://www.sparkfun.com/products/14117 |
-
+| STAGE I and III |
+| Basic 16x2 Character LCD | 1 | https://www.sparkfun.com/products/9053 |
+| STAGE II |
+| SparkFun Triple Axis Magnetometer Breakout - MAG3110 | 1 | https://www.sparkfun.com/products/12670?_ga=1.98491167.143687008.1481520984 |
+| STAGE IV |
+| Logitech c920 webcam | 1 | http://a.co/a6Er59p |
+| NERF N-Strike Elite TRIAD EX-3 Blaster | 1 | https://www.walmart.com/ip/NERF-N-Strike-Elite-TRIAD-EX-3-Blaster/23682842 |
 
 ## Resources
 Mecanum Drive Control Algorthim Source
