@@ -8,6 +8,7 @@
  */
 #include <Sabertooth.h>
 //Pin Definitions
+
 //Motor Serial only Transmit(TX) no Receive(RX).
 #define MotorSerial Serial1
 //MotorControllers
@@ -23,10 +24,8 @@ String usbCommmand = "";
 //Motors
 Sabertooth frontMotors = Sabertooth(MotorAddress1, MotorSerial);
 Sabertooth rearMotors = Sabertooth(MotorAddress2, MotorSerial);
-void setup() {
-  Serial.begin(9600);
-  MotorSerial.begin(9600);
-}
+
+//Support Functions
 void setMotion(String angleString, String magString, String speedString){
   //conversion
   float angle = angleString.toFloat();
@@ -62,6 +61,12 @@ void handleUsbCommand(String value){
       Serial.println("Invalid : "+value);
       break;
   }
+}
+
+//MicroController/Arduino Main
+void setup() {
+  Serial.begin(9600);
+  MotorSerial.begin(9600);
 }
 void loop() {
   while (Serial.available() && usbByteCount < 20) {
