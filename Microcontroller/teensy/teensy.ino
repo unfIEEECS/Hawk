@@ -51,14 +51,39 @@ void setMotion(String angleString, String magString, String speedString){
 void handleUsbCommand(String value){
   switch(value.charAt(0)){
     //X = [0-9]
-    //M:angle,mag,speed
-    //M:XX.XX,X.XXX,X.XXX
+    /*
+    * Motor Command 
+    * M:angle,mag,speed
+    * M:XX.XX,X.XXX,X.XXX
+    */
     case 'M':
       setMotion(value.substring(2,7), value.substring(8,13), value.substring(14));
-      Serial.println("Motor Value: "+value);
+      Serial.println(value);
       break;
+    /*
+    * Decrypt PCB (stage 1)
+    * D:
+    * prints code D:XXXXX
+    */
+    /*
+    * Output Combination (stage 3)
+    * O:code
+    * O:XXXXX
+    * prints completed message O:done
+    */
+    /*
+    * BumpMode (stage 2)
+    * B:
+    * prints completed message B:done
+    */
+    /*
+    * Gun Fire Command (stage 4) 
+    * G:angle
+    * G:XXX
+    * prints completed message G:done
+    */
     default:
-      Serial.println("Invalid : "+value);
+      Serial.println("I:"+value);
       break;
   }
 }
