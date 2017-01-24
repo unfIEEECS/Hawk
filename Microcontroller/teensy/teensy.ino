@@ -96,7 +96,7 @@ void setup() {
 void loop() {
   while (Serial.available() && usbByteCount < 20) {
     incomingByte = Serial.read();
-    if(incomingByte == '|'){
+    if(incomingByte == '\n'){
       handleUsbCommand(usbCommmand);
       usbByteCount = 0;
     }
