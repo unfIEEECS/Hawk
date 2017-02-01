@@ -15,7 +15,7 @@
 | STAGE I and III |
 | Basic 16x2 Character LCD | 1 | https://www.sparkfun.com/products/9053 |
 | STAGE II |
-| SparkFun Triple Axis Magnetometer Breakout - MAG3110 | 1 | https://www.sparkfun.com/products/12670?_ga=1.98491167.143687008.1481520984 |
+| SparkFun 9DoF IMU Breakout - LSM9DS1 | 1 | https://www.sparkfun.com/products/13284 |
 | STAGE IV |
 | Logitech c920 webcam | 1 | http://a.co/a6Er59p |
 | NERF N-Strike Elite TRIAD EX-3 Blaster | 1 | https://www.walmart.com/ip/NERF-N-Strike-Elite-TRIAD-EX-3-Blaster/23682842 |
