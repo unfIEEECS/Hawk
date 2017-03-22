@@ -17,7 +17,7 @@
 #define prbFive A4
 #define transPin 53
 //Motor Serial only Transmit(TX) no Receive(RX).
-//Serial1 are pins 18(TX),19(RX)
+//Serial1 are pins 18(TX),19(RX) for Mega
 #define MotorSerial Serial1
 
 //MotorControllers
